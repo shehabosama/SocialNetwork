@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801387926344",
+    "firebase_url": "https://poster-777eb.firebaseio.com",
+    "project_id": "poster-777eb",
+    "storage_bucket": "poster-777eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801387926344:android:d10c073086b9b7f1",
+        "android_client_info": {
+          "package_name": "com.example.shehab.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801387926344-k2e3e9fmsfvgm41ign36ec8ud00ca94e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shehab.socialnetwork",
+            "certificate_hash": "d0ae45e895863172ee257db9ade3dd5af24e959a"
+          }
+        },
+        {
+          "client_id": "801387926344-sk9tamvlf5nnfiqkrqtbt4806iohercl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-6NbDRRoUNtHSId1S0ZYGXeJffh5g7GM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801387926344-sk9tamvlf5nnfiqkrqtbt4806iohercl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

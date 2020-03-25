@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DicriptionPosts">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imagepost"
+        />
+
+    <EditText
+        android:id="@+id/decriptionpost"
+        android:layout_width="299dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imagepost"
+        android:hint="Write a caption..."
+        android:textColor="#000"
+        android:autoLink="all"/>
+
+    <Button
+        android:id="@+id/sharepostdecription"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imagepost"
+        android:text="share" />
+
+</RelativeLayout>

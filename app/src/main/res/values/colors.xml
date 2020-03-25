@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed4c54</color>
+    <color name="colorPrimaryDark">#212120</color>
+    <color name="mainBackgroundColor">#D7D7D7</color>
+    <color name="progress_secondary">#D7D7D7</color>
+    <color name="progress_max_active">#D7D7D7</color>
+    <color name="sendercolor">#A0179E</color>
+    <color name="white">#fff</color>
+    <color name="colorAccent">#009688</color>
+    <color name="color_option_menu">#FF3990</color>
+    <color name="filter_label_normal">#8A8889</color>
+    <color name="filter_label_selected">#221F20</color>
+</resources>

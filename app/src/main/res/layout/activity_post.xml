@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity"
+    android:background="@color/mainBackgroundColor">
+
+    <include
+        android:id="@+id/toolbar2"
+        layout="@layout/app_bar_layout">
+
+    </include>
+
+    <ImageButton
+        android:id="@+id/select_Post_image"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/select_image" />
+
+    <EditText
+        android:id="@+id/Post_description_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/storkedit"
+        android:hint="write anything "
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@android:color/background_light"
+
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/Update_post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableRight="@drawable/post_comment"
+        android:text="Post "
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
